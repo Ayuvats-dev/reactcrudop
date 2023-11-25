@@ -5,7 +5,7 @@ const EditEmployee = ({ employees, setEmployees }) => {
   const { id } = useParams();
   const history = useHistory();
 
-  const [editedEmployee, setEditedEmployee] = useState({
+  const [editedEmployee, setEditedEmployee] = useState({   
     id: '',
     name: '',
     age: '',
